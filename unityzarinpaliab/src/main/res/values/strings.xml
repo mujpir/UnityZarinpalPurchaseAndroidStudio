@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Unity Zarinpal IAB</string>
+    <string name="purchaseButtonText">پرداخت</string>
+    <string name="descText" >
+با تأیید پرداخت شما به درگاه پرداخت زرین پال
+هدایت میشوید تا عملیات خرید را انجام دهید .
+برای انصراف گزینه انصراف را لمس کنید.
+    </string>
+    <string name="titleText">بسته طلای 5</string>
+    <string name="cancelButtonText">انصراف</string>
+    <string name="priceText">%1$s تومان</string>
+</resources>

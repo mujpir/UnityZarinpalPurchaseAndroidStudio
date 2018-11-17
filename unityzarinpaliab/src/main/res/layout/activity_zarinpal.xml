@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.kingcodestudio.unityzarinpaliab.ZarinpalActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="75dp">
+
+    <TextView
+        android:id="@+id/priceTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="37dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/priceText"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintRight_toRightOf="@+id/textViewDesc"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle"
+        tools:layout_constraintTop_creator="1" />
+
+    <Button
+        android:id="@+id/cancelButton"
+        style="@style/ButtonColored"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="29dp"
+        android:background="@android:color/holo_red_dark"
+        android:elevation="0dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/cancelButtonText"
+        android:textAlignment="center"
+        app:layout_constraintRight_toLeftOf="@+id/purchaseButton"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDesc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/purchaseButton"
+        style="@style/ButtonColored"
+        android:layout_marginRight="24dp"
+        android:background="@android:color/holo_green_dark"
+        android:elevation="0dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/purchaseButtonText"
+        android:textAlignment="center"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/titleText"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintRight_toRightOf="@+id/textViewDesc"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintTop_creator="1" />
+
+    <TextView
+        android:id="@+id/textViewDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/descText"
+        android:textAlignment="textStart"
+        android:textDirection="rtl"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginRight="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="16dp" />
+
+</android.support.constraint.ConstraintLayout>

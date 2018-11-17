@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/UnityZarinpalPurchase.iml" filepath="$PROJECT_DIR$/UnityZarinpalPurchase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unity_classes/unity_classes.iml" filepath="$PROJECT_DIR$/unity_classes/unity_classes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unityzarinpaliab/unityzarinpaliab.iml" filepath="$PROJECT_DIR$/unityzarinpaliab/unityzarinpaliab.iml" />
+    </modules>
+  </component>
+</project>
